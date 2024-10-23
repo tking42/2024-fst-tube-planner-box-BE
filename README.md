@@ -13,8 +13,8 @@ This endpoint retrieves a list of all available stations.
 Example Response (if there were three stations): 
 
 ``` JSON
-
-{
+[
+     {
         "id": 1,
         "line": "Bakerloo",
         "code": "BST",
@@ -41,7 +41,7 @@ Example Response (if there were three stations):
         "time_to_next": 234,
         "zone": 3
     }
-}
+]
 ```
 
 GET /route 
