@@ -10,7 +10,9 @@ GET /
 
 This endpoint retrieves a list of all available stations. 
 
-Example Response if there were three stations: 
+Example Response (if there were three stations): 
+
+``` JSON
 
 {
         "id": 1,
@@ -40,22 +42,20 @@ Example Response if there were three stations:
         "zone": 3
     }
 }
+```
 
 GET /route 
 
 This endpoint calculates the route between two specified locations.
 
-Parameters
+Parameters:
 
-The starting location:
-
-from - string (e.g. BST)
-
-The destination location:
-
-to	- string (e.g. ERB)
+from: string (e.g., BST) — The starting location.
+to: string (e.g., ERB) — The destination location.
 
 Example response: 
+
+``` JSON
 
 [
     {
@@ -86,7 +86,7 @@ Example response:
         "zone": 5
     }
 ]
-
+```
     
     
 
